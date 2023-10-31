@@ -1,0 +1,30 @@
+:root {
+  color-scheme: dark;
+
+  --black: hsl(0, 0%, 0%);
+  --neutral-9: hsl(0, 0%, 10%);
+  --neutral-8: hsl(0, 0%, 20%);
+  --neutral-7: hsl(0, 0%, 30%);
+  --neutral-6: hsl(0, 0%, 40%);
+  --neutral-5: hsl(0, 0%, 50%);
+  --neutral-4: hsl(0, 0%, 60%);
+  --neutral-3: hsl(0, 0%, 70%);
+  --neutral-2: hsl(0, 0%, 80%);
+  --neutral-1: hsl(0, 0%, 90%);
+  --white: hsl(0, 0%, 100%);
+
+  --elevation-10: var(--black);
+  --elevation-9: var(--neutral-9);
+  --elevation-8: var(--neutral-8);
+  --elevation-7: var(--neutral-7);
+  --elevation-6: var(--neutral-6);
+  --elevation-5: var(--neutral-5);
+  --elevation-4: var(--neutral-4);
+  --elevation-3: var(--neutral-3);
+  --elevation-2: var(--neutral-2);
+  --elevation-1: var(--neutral-1);
+  --elevation-0: var(--white);
+
+  --shadow-1: 2px solid rgba(0, 0, 0, 0.8);
+  --highlight-1: 2px solid rgba(255, 255, 255, 0.2);
+}
